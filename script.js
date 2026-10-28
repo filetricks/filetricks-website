@@ -1,16 +1,12 @@
-// Mobile nav toggle
-const navToggle = document.getElementById('navToggle');
-const navLinks = document.getElementById('navLinks');
+// Theme Toggle Logic
 const themeToggleBtn = document.getElementById('themeToggle');
 const currentTheme = localStorage.getItem('theme');
 
-// Set initial theme
+// Set initial theme on load
 if (currentTheme) {
   document.documentElement.setAttribute('data-theme', currentTheme);
-  if (currentTheme === 'dark') {
-    themeToggleBtn.textContent = '☀️';
-  } else {
-    themeToggleBtn.textContent = '🌙';
+  if (themeToggleBtn) {
+    themeToggleBtn.textContent = currentTheme === 'dark' ? '☀️' : '🌙';
   }
 }
 
@@ -30,12 +26,15 @@ if (themeToggleBtn) {
   });
 }
 
+// Mobile nav toggle
+const navToggle = document.getElementById('navToggle');
+const navLinks = document.getElementById('navLinks');
+
 if (navToggle && navLinks) {
   navToggle.addEventListener('click', () => {
     navLinks.classList.toggle('open');
   });
 
-  // Close on link click (mobile)
   navLinks.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => {
       navLinks.classList.remove('open');
@@ -43,7 +42,7 @@ if (navToggle && navLinks) {
   });
 }
 
-// Smooth scroll for anchor links (fallback for older browsers)
+// Smooth scroll
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener('click', function (e) {
     const targetId = this.getAttribute('href');
