@@ -796,3 +796,51 @@ img {
     padding: 64px 0;
   }
 }
+/* ============ DARK MODE ============ */
+[data-theme="dark"] {
+  --primary: #4F75D8;
+  --primary-dark: #2D4F9E;
+  --primary-light: #6B8EE6;
+  --text: #F8FAFC;
+  --text-muted: #94A3B8;
+  --bg: #0F172A;
+  --bg-alt: #1E293B;
+  --border: #334155;
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 12px 48px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="dark"] .navbar {
+  background: rgba(15, 23, 42, 0.9);
+}
+
+[data-theme="dark"] .feature-card,
+[data-theme="dark"] .tool-category,
+[data-theme="dark"] .why-card,
+[data-theme="dark"] .tool-chip,
+[data-theme="dark"] .btn-secondary {
+  background: var(--bg-alt);
+}
+
+[data-theme="dark"] .tool-chip:hover {
+  background: var(--border);
+}
+
+[data-theme="dark"] .footer {
+  background: #020617;
+}
+
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background 0.3s;
+  color: var(--text);
+}
+
+.theme-toggle-btn:hover {
+  background: var(--border);
+}
