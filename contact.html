@@ -37,6 +37,26 @@
       <a href="mailto:rageelabs@gmail.com">rageelabs@gmail.com</a>
     </p>
 
+    <form id="contactForm" style="margin-top: 32px; max-width: 500px;">
+  <div style="margin-bottom: 16px;">
+    <label style="display: block; font-weight: 600; margin-bottom: 8px;">Your Name</label>
+    <input type="text" id="name" required style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text);">
+  </div>
+  <div style="margin-bottom: 16px;">
+    <label style="display: block; font-weight: 600; margin-bottom: 8px;">Email</label>
+    <input type="email" id="email" required style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text);">
+  </div>
+  <div style="margin-bottom: 16px;">
+    <label style="display: block; font-weight: 600; margin-bottom: 8px;">Message</label>
+    <textarea id="message" rows="5" required style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text);"></textarea>
+  </div>
+  <!-- Spam Bot Honeypot Field (Isse user nahi dekhega) -->
+  <input type="text" id="website" name="website" style="display:none;">
+  
+  <button type="submit" id="submitBtn" class="btn-primary" style="width: 100%;">Send Message</button>
+  <p id="formStatus" style="margin-top: 16px; font-weight: 600; text-align: center;"></p>
+</form>
+
     <h2>Response Time</h2>
     <p>We are a small indie team, but we read every single email. We usually respond within 24-48 hours.</p>
 
