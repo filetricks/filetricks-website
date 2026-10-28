@@ -6,37 +6,34 @@
   <title>Filetricks — All-in-One PDF & Image Tools for Android</title>
   <meta name="description" content="Merge, split, compress, and convert PDFs. Compress and convert images. Extract text with on-device AI OCR. 40+ tools in one fast, private Android app." />
   <meta name="theme-color" content="#26498C" />
-
-  <!-- Open Graph (for WhatsApp/Twitter sharing) -->
   <meta property="og:title" content="Filetricks — All your file tools. One app." />
   <meta property="og:description" content="40+ PDF & image tools, 100% on-device. Free to download on Google Play." />
   <meta property="og:type" content="website" />
-
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- ============ NAVBAR ============ -->
   <nav class="navbar">
     <div class="nav-container">
-      <a href="#" class="logo">
+      <a href="index.html" class="logo">
         <span class="logo-mark">F</span>
         <span class="logo-text">Filetricks</span>
       </a>
-      <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">🌙</button>
       <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
       <ul class="nav-links" id="navLinks">
         <li><a href="#features">Features</a></li>
         <li><a href="#tools">Tools</a></li>
         <li><a href="#screenshots">Screenshots</a></li>
         <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">🌙</button></li>
         <li><a href="#download" class="btn-nav">Get the app</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- ============ HERO ============ -->
   <section class="hero">
     <div class="hero-container">
       <div class="hero-content">
@@ -51,56 +48,24 @@
           Fast, private, free.
         </p>
         <div class="hero-cta">
-          <a href="https://play.google.com/store/apps/details?id=com.manoj.filetricks"
-             class="btn-primary btn-large" target="_blank" rel="noopener">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
-            </svg>
+          <a href="https://play.google.com/store/apps/details?id=com.manoj.filetricks" class="btn-primary btn-large" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" /></svg>
             Get it on Google Play
           </a>
           <a href="#tools" class="btn-secondary">Explore tools</a>
         </div>
-        <p class="hero-note">
-          ✓ 100% on-device processing · ✓ No file uploads · ✓ No watermarks
-        </p>
+        <p class="hero-note">✓ 100% on-device processing · ✓ No file uploads · ✓ No watermarks</p>
       </div>
 
       <div class="hero-visual">
         <div class="phone-mockup">
           <div class="phone-screen">
-            <div class="phone-header">
-              <span class="phone-dot"></span>
-              <span class="phone-title">Filetricks</span>
-            </div>
+            <div class="phone-header"><span class="phone-dot"></span><span class="phone-title">Filetricks</span></div>
             <div class="phone-body">
-              <div class="phone-card">
-                <span class="phone-icon" style="background:#8B5CF6;">📄</span>
-                <div>
-                  <strong>Merge PDF</strong>
-                  <small>Combine PDFs</small>
-                </div>
-              </div>
-              <div class="phone-card">
-                <span class="phone-icon" style="background:#EF4444;">📑</span>
-                <div>
-                  <strong>PDF → JPG</strong>
-                  <small>Convert pages</small>
-                </div>
-              </div>
-              <div class="phone-card">
-                <span class="phone-icon" style="background:#10B981;">🖼️</span>
-                <div>
-                  <strong>Img → PDF</strong>
-                  <small>Create PDFs</small>
-                </div>
-              </div>
-              <div class="phone-card">
-                <span class="phone-icon" style="background:#06B6D4;">🗜️</span>
-                <div>
-                  <strong>Compress</strong>
-                  <small>Reduce size</small>
-                </div>
-              </div>
+              <div class="phone-card"><span class="phone-icon" style="background:#8B5CF6;">📄</span><div><strong>Merge PDF</strong><small>Combine PDFs</small></div></div>
+              <div class="phone-card"><span class="phone-icon" style="background:#EF4444;">📑</span><div><strong>PDF → JPG</strong><small>Convert pages</small></div></div>
+              <div class="phone-card"><span class="phone-icon" style="background:#10B981;">🖼️</span><div><strong>Img → PDF</strong><small>Create PDFs</small></div></div>
+              <div class="phone-card"><span class="phone-icon" style="background:#06B6D4;">🗜️</span><div><strong>Compress</strong><small>Reduce size</small></div></div>
             </div>
           </div>
         </div>
@@ -108,70 +73,48 @@
     </div>
   </section>
 
-  <!-- ============ STATS STRIP ============ -->
   <section class="stats">
     <div class="stats-container">
-      <div class="stat">
-        <span class="stat-num">40+</span>
-        <span class="stat-label">Tools</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">0</span>
-        <span class="stat-label">Files uploaded</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">5</span>
-        <span class="stat-label">OCR scripts</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">100%</span>
-        <span class="stat-label">On-device</span>
-      </div>
+      <div class="stat"><span class="stat-num">40+</span><span class="stat-label">Tools</span></div>
+      <div class="stat"><span class="stat-num">0</span><span class="stat-label">Files uploaded</span></div>
+      <div class="stat"><span class="stat-num">5</span><span class="stat-label">OCR scripts</span></div>
+      <div class="stat"><span class="stat-num">100%</span><span class="stat-label">On-device</span></div>
     </div>
   </section>
 
-  <!-- ============ FEATURES ============ -->
   <section class="features" id="features">
     <div class="section-container">
       <div class="section-header">
         <span class="section-eyebrow">Why Filetricks</span>
         <h2>Built for speed. Designed for privacy.</h2>
-        <p class="section-subtitle">
-          No cloud uploads. No waiting for servers. Everything happens on your phone.
-        </p>
+        <p class="section-subtitle">No cloud uploads. No waiting for servers. Everything happens on your phone.</p>
       </div>
-
       <div class="features-grid">
         <div class="feature-card">
           <div class="feature-icon" style="background:rgba(38,73,140,0.12);color:#26498C;">🔒</div>
           <h3>100% on-device</h3>
           <p>Your files never leave your phone. Every conversion happens locally — no servers, no tracking.</p>
         </div>
-
         <div class="feature-card">
           <div class="feature-icon" style="background:rgba(139,92,246,0.12);color:#8B5CF6;">⚡</div>
           <h3>Instant results</h3>
           <p>No uploads means no waiting. Most conversions finish in under 3 seconds.</p>
         </div>
-
         <div class="feature-card">
           <div class="feature-icon" style="background:rgba(16,185,129,0.12);color:#10B981;">🔍</div>
           <h3>AI-powered OCR</h3>
           <p>Extract text from any PDF or image. Auto-detects English, Hindi, Chinese, Japanese, Korean.</p>
         </div>
-
         <div class="feature-card">
           <div class="feature-icon" style="background:rgba(239,68,68,0.12);color:#EF4444;">🛡️</div>
           <h3>Password protection</h3>
           <p>Lock PDFs with a password, or protect the entire app with a secure MPIN.</p>
         </div>
-
         <div class="feature-card">
           <div class="feature-icon" style="background:rgba(255,179,0,0.12);color:#FFB300;">✨</div>
           <h3>No watermarks. Ever.</h3>
           <p>Every output is clean. No branding, no stamps, no compromises.</p>
         </div>
-
         <div class="feature-card">
           <div class="feature-icon" style="background:rgba(6,182,212,0.12);color:#06B6D4;">📱</div>
           <h3>Beautiful by design</h3>
@@ -181,7 +124,6 @@
     </div>
   </section>
 
-  <!-- ============ TOOLS ============ -->
   <section class="tools" id="tools">
     <div class="section-container">
       <div class="section-header">
@@ -189,77 +131,47 @@
         <h2>40+ tools. One app.</h2>
         <p class="section-subtitle">Everything you need to work with PDFs and images — organized, fast, free.</p>
       </div>
-
       <div class="tool-categories">
         <div class="tool-category">
           <h3>📄 PDF Tools</h3>
           <div class="tool-list">
-            <span class="tool-chip">Merge PDF</span>
-            <span class="tool-chip">Split PDF</span>
-            <span class="tool-chip">Compress PDF</span>
-            <span class="tool-chip">Target Size PDF</span>
-            <span class="tool-chip">Watermark PDF</span>
-            <span class="tool-chip">Header &amp; Footer</span>
+            <span class="tool-chip">Merge PDF</span><span class="tool-chip">Split PDF</span><span class="tool-chip">Compress PDF</span><span class="tool-chip">Target Size PDF</span><span class="tool-chip">Watermark PDF</span><span class="tool-chip">Header &amp; Footer</span>
           </div>
         </div>
-
         <div class="tool-category">
           <h3>🔁 PDF Convert</h3>
           <div class="tool-list">
-            <span class="tool-chip">PDF → JPG</span>
-            <span class="tool-chip">PDF → PNG</span>
-            <span class="tool-chip">PDF → Word</span>
-            <span class="tool-chip">PDF → Excel</span>
-            <span class="tool-chip">PDF → Text</span>
-            <span class="tool-chip">PDF → ZIP</span>
+            <span class="tool-chip">PDF → JPG</span><span class="tool-chip">PDF → PNG</span><span class="tool-chip">PDF → Word</span><span class="tool-chip">PDF → Excel</span><span class="tool-chip">PDF → Text</span><span class="tool-chip">PDF → ZIP</span>
           </div>
         </div>
-
         <div class="tool-category">
           <h3>🖼️ Image Tools</h3>
           <div class="tool-list">
-            <span class="tool-chip">Compress Image</span>
-            <span class="tool-chip">Resize Image</span>
-            <span class="tool-chip">Convert Image</span>
-            <span class="tool-chip">Rotate &amp; Flip</span>
-            <span class="tool-chip">Watermark Image</span>
-            <span class="tool-chip">Image → PDF</span>
+            <span class="tool-chip">Compress Image</span><span class="tool-chip">Resize Image</span><span class="tool-chip">Convert Image</span><span class="tool-chip">Rotate &amp; Flip</span><span class="tool-chip">Watermark Image</span><span class="tool-chip">Image → PDF</span>
           </div>
         </div>
-
         <div class="tool-category">
           <h3>🔍 OCR</h3>
           <div class="tool-list">
-            <span class="tool-chip">PDF OCR</span>
-            <span class="tool-chip">Image OCR</span>
-            <span class="tool-chip">Multi-page OCR</span>
-            <span class="tool-chip">Auto language detect</span>
+            <span class="tool-chip">PDF OCR</span><span class="tool-chip">Image OCR</span><span class="tool-chip">Multi-page OCR</span><span class="tool-chip">Auto language detect</span>
           </div>
         </div>
-
         <div class="tool-category">
           <h3>✍️ Edit &amp; Sign</h3>
           <div class="tool-list">
-            <span class="tool-chip">PDF Editor</span>
-            <span class="tool-chip">PDF Form Filler</span>
-            <span class="tool-chip">Sign PDF</span>
-            <span class="tool-chip">Document Scanner</span>
+            <span class="tool-chip">PDF Editor</span><span class="tool-chip">PDF Form Filler</span><span class="tool-chip">Sign PDF</span><span class="tool-chip">Document Scanner</span>
           </div>
         </div>
-
         <div class="tool-category">
           <h3>🔐 Security</h3>
           <div class="tool-list">
-            <span class="tool-chip">Lock PDF</span>
-            <span class="tool-chip">Unlock PDF</span>
-            <span class="tool-chip">App Lock (MPIN)</span>
+            <span class="tool-chip">Lock PDF</span><span class="tool-chip">Unlock PDF</span><span class="tool-chip">App Lock (MPIN)</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============ SCREENSHOTS ============ -->
   <section class="screenshots" id="screenshots">
     <div class="section-container">
       <div class="section-header">
@@ -267,91 +179,49 @@
         <h2>See it in action</h2>
         <p class="section-subtitle">Clean screens. Intuitive flows. Every tap gets you closer to done.</p>
       </div>
-
-      <!-- Replace src with your actual screenshots later -->
       <div class="screenshots-row">
-        <div class="screenshot">
-          <!-- Naya Code -->
-          <img src="home.png" alt="Home screen" />
-          <p>Home</p>
-        </div>
-        <div class="screenshot">
-          <img src="tools.png" alt="Tools list" />
-          <p>All Tools</p>
-        </div>
-        <div class="screenshot">
-          <img src="merge.png" alt="Merge PDF" />
-          <p>Merge PDF</p>
-        </div>
-        <div class="screenshot">
-          <img src="ocr.png" alt="PDF OCR" />
-          <p>PDF OCR</p>
-        </div>
+        <div class="screenshot"><img src="home.png" alt="Home screen" /><p>Home</p></div>
+        <div class="screenshot"><img src="tools.png" alt="Tools list" /><p>All Tools</p></div>
+        <div class="screenshot"><img src="merge.png" alt="Merge PDF" /><p>Merge PDF</p></div>
+        <div class="screenshot"><img src="ocr.png" alt="PDF OCR" /><p>PDF OCR</p></div>
       </div>
     </div>
   </section>
 
-  <!-- ============ WHY ============ -->
   <section class="why">
     <div class="section-container">
       <div class="section-header">
         <span class="section-eyebrow">The difference</span>
         <h2>Why thousands choose Filetricks</h2>
       </div>
-
       <div class="why-grid">
-        <div class="why-card">
-          <div class="why-num">01</div>
-          <h3>No file uploads</h3>
-          <p>Other apps upload your documents to their servers. We don't. Your files stay on your device — always.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-num">02</div>
-          <h3>No watermarks</h3>
-          <p>Every output is clean and professional. No "made with Filetricks" stamps on your documents.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-num">03</div>
-          <h3>No forced sign-ups</h3>
-          <p>Start working immediately. No email, no password, no verification emails. Just open and go.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-num">04</div>
-          <h3>Fair pricing</h3>
-          <p>Most tools are free with generous limits. Upgrade to Pro only if you need unlimited usage.</p>
-        </div>
+        <div class="why-card"><div class="why-num">01</div><h3>No file uploads</h3><p>Other apps upload your documents to their servers. We don't. Your files stay on your device — always.</p></div>
+        <div class="why-card"><div class="why-num">02</div><h3>No watermarks</h3><p>Every output is clean and professional. No "made with Filetricks" stamps on your documents.</p></div>
+        <div class="why-card"><div class="why-num">03</div><h3>No forced sign-ups</h3><p>Start working immediately. No email, no password, no verification emails. Just open and go.</p></div>
+        <div class="why-card"><div class="why-num">04</div><h3>Fair pricing</h3><p>Most tools are free with generous limits. Upgrade to Pro only if you need unlimited usage.</p></div>
       </div>
     </div>
   </section>
 
-  <!-- ============ CTA ============ -->
   <section class="cta" id="download">
     <div class="cta-container">
       <h2>Ready to declutter your file workflow?</h2>
       <p>Download Filetricks free and get 40+ tools in one place.</p>
-      <a href="https://play.google.com/store/apps/details?id=com.manoj.filetricks"
-         class="btn-white btn-large" target="_blank" rel="noopener">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
-        </svg>
+      <a href="https://play.google.com/store/apps/details?id=com.manoj.filetricks" class="btn-white btn-large" target="_blank" rel="noopener">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" /></svg>
         Get it on Google Play
       </a>
       <p class="cta-note">Free · No sign-up · No watermarks</p>
     </div>
   </section>
 
-  <!-- ============ FOOTER ============ -->
   <footer class="footer">
     <div class="footer-container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <div class="logo">
-            <span class="logo-mark">F</span>
-            <span class="logo-text">Filetricks</span>
-          </div>
+          <div class="logo"><span class="logo-mark">F</span><span class="logo-text">Filetricks</span></div>
           <p>All your file tools. One app.</p>
         </div>
-
         <div class="footer-col">
           <h4>Product</h4>
           <ul>
@@ -360,7 +230,6 @@
             <li><a href="#screenshots">Screenshots</a></li>
           </ul>
         </div>
-
         <div class="footer-col">
           <h4>Legal</h4>
           <ul>
@@ -368,22 +237,19 @@
             <li><a href="terms.html">Terms of Service</a></li>
           </ul>
         </div>
-
         <div class="footer-col">
           <h4>Contact</h4>
           <ul>
-            <li><a href="mailto:your.email@example.com">Email us</a></li>
+            <li><a href="mailto:rageelabs@gmail.com">rageelabs@gmail.com</a></li>
           </ul>
         </div>
       </div>
-
       <div class="footer-bottom">
         <p>© 2026 Filetricks. All rights reserved.</p>
         <p>Made with ❤️ for Android</p>
       </div>
     </div>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
