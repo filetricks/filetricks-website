@@ -98,17 +98,11 @@ img {
   color: var(--text); /* Changed to adapt in dark mode */
 }
 
-.logo-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
+.logo-img {
+  width: 32px;          /* Logo ka size */
   height: 32px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, var(--primary-dark), var(--primary-light));
-  color: white;
-  font-weight: 900;
-  font-size: 1.1rem;
+  border-radius: 8px;   /* Halka sa rounded corner */
+  object-fit: cover;    /* Image stretch na ho */
 }
 
 .nav-links {
