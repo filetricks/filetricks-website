@@ -8,16 +8,18 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
   <nav class="navbar">
     <div class="nav-container">
       <a href="index.html" class="logo"><span class="logo-mark">F</span><span class="logo-text">Filetricks</span></a>
-      <ul class="nav-links">
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+      <ul class="nav-links" id="navLinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="privacy.html">Privacy</a></li>
         <li><a href="terms.html">Terms</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><button id="themeToggle" class="theme-toggle-btn">🌙</button></li>
+        <li><button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">🌙</button></li>
       </ul>
     </div>
   </nav>
@@ -28,7 +30,6 @@
     <p class="last-updated">All your file tools. One app.</p>
 
     <p>Filetricks was born out of a simple frustration: why does converting a PDF or compressing an image require uploading personal files to a random website?</p>
-    
     <p>We believe that your files are yours. They shouldn't be sent to a server farm somewhere just to be converted. That's why <strong>every single tool in Filetricks runs 100% on your device.</strong></p>
 
     <h2>Our Mission</h2>
