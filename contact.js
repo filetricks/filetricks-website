@@ -5,12 +5,12 @@ import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/1
 
 // Aapka Firebase Config (Step 2 se copy kiya hua)
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCt4QyN_vR2EPzt8t41Qg0AXBLEKwSDJj8",
+  authDomain: "filetricks-website.firebaseapp.com",
+  projectId: "filetricks-website",
+  storageBucket: "filetricks-website.firebasestorage.app",
+  messagingSenderId: "419226493478",
+  appId: "1:419226493478:web:c18d07dfd76b2fe36b3ce7"
 };
 
 // Initialize Firebase
