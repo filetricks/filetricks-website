@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://filetricks.github.io/filetricks-website/sitemap.xml
