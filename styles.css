@@ -32,9 +32,9 @@
   --accent: #A78BFA;
   --text: #F8FAFC;
   --text-muted: #94A3B8;
-  --bg: #0F172A;
-  --bg-alt: #1E293B;
-  --border: #334155;
+  --bg: #FDFBF7;
+  --bg-alt: #F5F1E8;
+  --border: #EAE5D9;
   --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 12px 48px rgba(0, 0, 0, 0.6);
 }
